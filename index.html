@@ -1,152 +1,35 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-
-<head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="./styles.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;700&display=swap" rel="stylesheet">
-    <title>Contabilidade Digital</title>
+    <title>Escritório Contábil Moderno</title>
+    <style>
+        /* Adicione estilos CSS aqui para personalizar a aparência do seu site */
+    </style>
 </head>
-
 <body>
-    <div class="caixa-superior">
-        <div class="cabecalho">
-            <h2 class="titulo-cabecalho">Cotech Digital</h2>
-            <a href="#titulo-inferior" class="link-cabecalho">Quem somos</a>
-            <a href="#titulo-meio" class="link-cabecalho">Serviços</a>
-            <a class="link-cabecalho" onclick="chameOAbacate()">Contato</a>
-        </div>
+    <header>
+        <h1>Escritório Contábil Moderno</h1>
+    </header>
 
-        <h1>Acessória Contábil e tecnológica</h1>
+    <section id="servicos">
+        <h2>Nossos Serviços</h2>
+        <ul>
+            <li>Serviço 1</li>
+            <li>Serviço 2</li>
+            <li>Serviço 3</li>
+        </ul>
+    </section>
 
-        <form id="formulario-contato" action="https://formsubmit.co/rodolfo_cotechdigital@gmail.com" method="POST">
-            <h3 class="titulo-formulario">Entre em contato</h3>
-            <label>
-                Nome
-                <input  type="text" name="Nome" placeholder="Digite seu Nome" required/>
-            </label>
+    <section id="contato">
+        <h2>Contato</h2>
+        <p>Entre em contato conosco:</p>
+        <ul>
+            <li>Email: exemplo@email.com</li>
+            <li>Telefone: (123) 456-7890</li>
+            <li>Endereço: Rua Exemplo, 123</li>
+        </ul>
+    </section>
 
-            <label>
-                E-mail
-                <input type="email" name="email" placeholder="Digite seu E-mail" required/>
-            </label>
-
-            <label>
-                WhatsApp
-                <input type="tel" name="telefone" placeholder="Digite seu telefone" required/>
-            </label>
-
-            <label>
-                Fale Conosco
-                <textarea name="info" placeholder="Qual sua dúvida?"></textarea>
-            </label>
-
-            <button type="submit">Enviar</button>
-        </form>
-    </div>
-
-    <h2 id="titulo-meio">Nossos serviços</h2>
-
-    <div class="caixa-central">
-        <div class="card">
-            <h3 class="titulo-card">Acessoria Contábil</h3>
-            <ul>
-                <li>Consultoria</li>
-                <li>Abertura de Empresas</li>
-                <li>Acessoria Tributária</li>
-                <li>Redução de Impostos</li>
-                <li>Conformidade Trabalhista</li>
-                <li>BPO Financeiro</li>
-                <li>Regularização Societária</li>
-            </ul>
-        </div>
-
-        <div class="card">
-            <h3 class="titulo-card">Departamento Pessoal</h3>
-            <ul>
-                <li>Processos de admissão</li>
-                <li>Oficializar as demissões e desligamentos</li>
-                <li>Fazer a gestão da folha de pagamento</li>
-                <li>Garantir o controle de horários</li>
-                <li>Apoiar os setores no planejamento de férias</li>
-                <li>Manter o compliance trabalhista</li>
-            </ul>
-        </div>
-
-        <div class="card">
-            <h3 class="titulo-card">Tecnologia</h3>
-            <ul>
-                <li>Criamos o seu logotipo</li>
-                <li>Criação de Sites otimizados</li>
-                <li>Criação de Dominio de Sites</li>
-                <li>Hospedagem de Sites</li>
-                <li>ChatBot Para WhatsApp</li>
-                <li>Criação de e-mail Corporativo</li>
-                <li>Colocamos os seus serviços no Google</li>
-            </ul>
-        </div>
-    </div>
-
-
-    <div class="caixa-inferior">
-        <h2 id="titulo-inferior">Sobre nós</h2>
-        <p class="paragrafo-inferior">
-            A COTECHDIGITAL é um escritório de contabilidade e tecnologia, oferecendo soluções inovadoras 
-            para ajudar empresas a alcançarem o sucesso financeiro de forma eficiente e tecnológica. 
-            Nossa equipe altamente qualificada combina expertise contábil com conhecimento em tecnologia para 
-            fornecer serviços personalizados e soluções digitais que impulsionam o crescimento dos nossos clientes. 
-            Estamos comprometidos em simplificar processos, otimizar resultados e acompanhar as últimas tendências 
-            tecnológicas para oferecer um serviço de excelência.
-        </p>
-        <h2 id="titulo-meio">Nossos Gestores</h2>
-
-    <div class="caixa-central">
-        <div class="card">
-            <h3 class="titulo-card">Francisco Kalombe</h3>
-            <ul>
-                <li>Consultoria</li>
-                <li>Abertura de Empresas</li>
-                <li>Acessoria Tributária</li>
-                <li>Redução de Impostos</li>
-                <li>Conformidade Trabalhista</li>
-                <li>BPO Financeiro</li>
-                <li>Regularização Societária</li>
-            </ul>
-        </div>
-
-        <div class="card">
-            <h3 class="titulo-card">Fernando Kiosa</h3>
-            <ul>
-                <li>Processos de admissão</li>
-                <li>Oficializar as demissões e desligamentos</li>
-                <li>Fazer a gestão da folha de pagamento</li>
-                <li>Garantir o controle de horários</li>
-                <li>Apoiar os setores no planejamento de férias</li>
-                <li>Manter o compliance trabalhista</li>
-            </ul>
-        </div>
-
-    </div>
+    <footer>
+        <p>&copy; 2023 Escritório Contábil Moderno</p>
+    </footer>
 </body>
-<footer>
-    Copyright@Cotechdigital - Desenvolvindo por Cotech
-</footer>
-<script>
-let formulario = document.getElementById("formulario-contato")
-
-
-function chameOAbacate(){
-    formulario.className = "mostrar-formulario"
-}
-
-
-
-</script>
-<footer>
-    Copyright@Cotechdigital - Desenvolvindo por Cotech
-</footer>
 </html>
